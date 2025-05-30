@@ -43,8 +43,8 @@ public class AuthService {
         //Publish UserRegisteredEvent
         UserRegisteredEvent event = new UserRegisteredEvent(
                 user.getId(),
-                user.getName(),
-                user.getEmail()
+                user.getEmail(),
+                user.getName()
         );
         userEventPublisher.publishUserRegisteredEvent(event);
 
