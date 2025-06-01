@@ -1,4 +1,4 @@
-package com.deliverytogo.user_service.listener;
+package com.deliverytogo.user_service.messaging;
 
 import com.deliverytogo.user_service.event.UserRegisteredEvent;
 import com.deliverytogo.user_service.model.User;
